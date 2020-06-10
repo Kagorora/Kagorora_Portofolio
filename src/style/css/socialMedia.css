@@ -1,0 +1,52 @@
+.socialMedia {
+  height: 18vh;
+  width: 6vh;
+}
+
+.socialMedia ul {
+  position: relative;
+}
+
+.socialMedia li {
+  display: block;
+  margin: 1rem auto;
+  font-size: 1.5rem;
+  width: 25px;
+}
+
+.socialMedia li i {
+  display: inline;
+}
+
+.socialMedia li span {
+  font: 12px "Open Sans", sans-serif;
+  text-transform: uppercase;
+  border-radius: 3px;
+  margin-left: 2rem;
+  height: 2rem;
+  background-color: red;
+  padding: 0.6rem 3rem;
+  text-align: left;
+}
+
+.socialMedia ul li i:hover span{
+  background-color: black;
+}
+
+.socialMedia li span[class*="github"]:hover,
+.socialMedia li span[class*="github"] span,
+.socialMedia li span[class*="github"] span:before {
+  background: #24292e;
+}
+
+.socialMedia li span[class*="linkedin"]:hover,
+.socialMedia li span[class*="linkedin"] span,
+.socialMedia li span[class*="linkedin"] span:before {
+  background: #0671ae;
+}
+
+.socialMedia li span[class*="email"]:hover,
+.socialMedia li span[class*="email"] span,
+.socialMedia li span[class*="email"] span:before {
+  background: #dc4a3f;
+}
