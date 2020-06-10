@@ -2,9 +2,7 @@ import React from "react";
 import "../style/css/socialMedia.css";
 
 const socialMedia = () => {
-  const handleClick = (e) => {
-    // console.log('e.target.className', e.target.className);
-    
+  const handleClick = (e) => {    
     if (e.target.className === "fa fa-github") {
      window.open("https://github.com/kagorora", "_blank");
     }
