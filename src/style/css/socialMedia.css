@@ -1,0 +1,164 @@
+.socialMedia {
+  height: 24vh;
+  width: 6vh;
+  background-color: rgba(173, 173, 173, 0.1);
+}
+
+.socialMedia ul {
+  position: relative;
+}
+
+.socialMedia ul li i {
+  font-size: 2.25rem;
+  padding: 0.41rem 0.6rem;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.socialMedia li span {
+  position: absolute;
+  font: 12px "Open Sans", sans-serif;
+  text-transform: uppercase;
+  border-radius: 5px;
+  margin-left: 2rem;
+  height: 0.8rem;
+  padding: 0.8rem 3rem;
+  text-align: left;
+  background-color: white;
+  border: 1px solid #24292e;
+  cursor: pointer;
+  color: white;
+  margin-top: -2.78rem;
+  z-index: -1 !important;
+  left: -100%;
+  transition: opacity 0.3s, left 0.4s;
+  opacity: 0;
+}
+
+.socialMedia li span[class*="github"]:after {
+  content: " ";
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid #24292e;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  left: -14.1%;
+  top: 23%;
+  position: absolute;
+}
+
+.socialMedia li span[class*="linkedin"]:after {
+  content: " ";
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid #0090c1;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  left: -13.2%;
+  top: 24.5%;
+  position: absolute;
+}
+
+.socialMedia li span[class*="facebook-square"]:after {
+  content: " ";
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid #337DEE;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  left: -12.3%;
+  top: 25%;
+  position: absolute;
+}
+
+.socialMedia li span[class*="envelope"]:after {
+  content: " ";
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid #c14338;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  left: -15.1%;
+  top: 25%;
+  position: absolute;
+}
+
+.socialMedia ul li i[class*="github"]:hover{
+  background: #24292e;
+  color: white;
+}
+
+.socialMedia ul li i[class*="github"]:hover + span,
+.socialMedia li span[class*="github"] span,
+.socialMedia li span[class*="github"] span:before {
+  background: linear-gradient(to right, #24292e, #30475c);
+  opacity: 1;
+  border: #24292e;
+  left: 100%;
+  color: white;
+}
+
+.socialMedia ul li i[class*="linkedin"]:hover {
+  background: #0090c1;
+  color: white;
+}
+
+.socialMedia ul li i[class*="linkedin"]:hover + span,
+.socialMedia li span[class*="linkedin"] span,
+.socialMedia li span[class*="linkedin"] span:before {
+  opacity: 1;
+  border: #0671ae;
+  left: 100%;
+  background: linear-gradient(to right, #0090c1, #039bac);
+  color: white;
+}
+
+.socialMedia ul li i[class*="facebook-square"]:hover{
+  background: #337DEE;
+  color: white;
+}
+
+.socialMedia ul li i[class*="facebook-square"]:hover + span,
+.socialMedia li span[class*="facebook-square"] span,
+.socialMedia li span[class*="facebook-square"] span:before {
+  opacity: 1;
+  background: linear-gradient(to right, #337DEE, #23BBD8);
+  border: #4167b2;
+  left: 100%;
+  color: white;
+}
+
+#emailIcon {
+  transform: scale(0.9, 1);
+  font-size: 34px;
+  line-height: 36px;
+  box-sizing: content-box;
+  margin-left: 0;
+}
+
+.socialMedia ul li i[class*="envelope"]:hover{
+  background: #c14338;
+  color: white;
+}
+
+.socialMedia ul li i[class*="envelope"]:hover + span,
+.socialMedia li span[class*="envelope"] span,
+.socialMedia li span[class*="envelope"] span:before {
+  opacity: 1;
+  background: linear-gradient(to right, #c14338, #d6968f);
+  border: #c14338;
+  left: 100%;
+  color: white;
+}
+
+.socialMedia ul li i[class*="envelope"] {
+  border-bottom-right-radius: 5px;
+}
+
+.socialMedia ul li i[class*="github"] {
+  border-top-right-radius: 5px;
+}
