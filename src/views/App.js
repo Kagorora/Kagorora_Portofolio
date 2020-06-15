@@ -3,7 +3,8 @@ import "../style/css/App.css";
 import Nav from "../component/nav.bar";
 import SocialMedia from "../component/socialMedia.js";
 import ChatBot from "../component/chatBot.js";
-import 'minimatch';
+import Skills from "../component/skillsCard.js";
+import "minimatch";
 
 const App = (props) => {
   const [value, setValue] = useState(false);
@@ -34,6 +35,9 @@ const App = (props) => {
             </button>
           )}
         </div>
+      </div>
+      <div className="SkillsSection">
+        <Skills />
       </div>
     </div>
   );
