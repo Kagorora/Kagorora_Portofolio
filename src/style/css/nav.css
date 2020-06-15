@@ -8,6 +8,10 @@
   width: 100%;
   border: none;
   border-bottom: 1px solid rgb(224, 224, 224);
+  z-index: 1;
+  background-color: #1A1B1F;
+  position: fixed;
+  color: #9599a2;
 }
 
 .nav-logo {
@@ -32,6 +36,10 @@
   display: inline;
   margin-left: 2rem;
   cursor: pointer;
+}
+
+.nav-link ul li:hover{
+  color: white;
 }
 
 .react-toggle {

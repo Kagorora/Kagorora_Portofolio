@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.skillsContainer {
+  height: 100vh;
+  border: 1px solid #ffffff;
+}
+
+.skillsContainer h1 {
+  text-align: center;
+  margin: 0.5rem auto 3rem auto;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.skillContainer {
+  display: flex;
+  background-color: #ffffff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  flex-direction: row;
+}
+
+.skillContainer div {
+  margin: 0 0.7rem 1.5rem 0.7rem;
+  background-color: #ffffff;
+  border: 1px solid #f0eeee;
+  padding: 10px;
+  height: 36.3vh;
+  width: 22%;
+  align-self: flex-start;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0px 9px 15px -8px rgba(0, 0, 0, 0.1);
+}
+
+.skillContainer div:hover h3{
+  color: #EE216A;
+}
+
+.skillContainer div:hover {
+  box-shadow: 0px 9px 15px -8px rgba(0, 0, 0, 0.46);
+  transition: 0.35s ease;
+}
+
+.skillContainer div img {
+  height: 10rem;
+  display: block;
+  margin: 0 auto;
+  /* float: left; */
+}
+
+.skillContainer div h3 {
+  color: #606060;
+  text-align: center;
+  margin: 1rem auto;
+  text-transform: uppercase;
+}
+
+.skillContainer div p {
+  text-align: center;
+  margin: 0.3rem auto;
+  font-weight: 200;
+}
+
+/* #posgresqlImg:hover{
+  background: url("../images/red-Postgreqsl.png") no-repeat;
+  height: -10rem;
+} */
+
+#redPosgresqlImg {
+  display: none;
+}
+
+.postgresCard:hover #posgresqlImg {
+  display: none;
+}
+
+.postgresCard:hover #redPosgresqlImg {
+  display: block;
+}
+
+#express {
+  width: 80%;
+  height: 8vh;
+  margin: 3rem auto 4rem auto;
+}
+#redExpress {
+  width: 80%;
+  height: 8vh;
+  margin: 3rem auto 4rem auto;
+  display: none;
+}
+
+.expressCard:hover #express {
+  display: none;
+}
+
+.expressCard:hover #redExpress {
+  display: block;
+}
+
+#redReact {
+  display: none;
+}
+
+.reactCard:hover #react {
+  display: none;
+}
+.reactCard:hover #redReact {
+  display: block;
+}
+
+#redNode {
+  display: none;
+}
+
+.nodeCard:hover #Node {
+  display: none;
+}
+.nodeCard:hover #redNode {
+  display: block;
+}
