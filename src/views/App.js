@@ -4,6 +4,7 @@ import Nav from "../component/nav.bar";
 import SocialMedia from "../component/socialMedia.js";
 import ChatBot from "../component/chatBot.js";
 import Skills from "../component/skillsCard.js";
+import PersonalInfo from "../component/personalnfo.js";
 import "minimatch";
 
 const App = (props) => {
@@ -18,7 +19,17 @@ const App = (props) => {
 
   return (
     <div className="container">
+      {/* {$(".container").scroll(function() {
+          var y = $(this).scroll();
+          if (y > 20) {
+            // $("#element").fadeOut();
+            console.log('11111111');
+          } else {
+            $("#element").fadeOut();
+          }
+        })} */}
       <Nav isOn={value} handleToggle={() => setValue(!value)} />
+      <PersonalInfo id="PersonalInfo" />
       <SocialMedia className="socialMedia" />
       <div className="bot">
         <div style={{ display: showChat ? "" : "none" }}>
