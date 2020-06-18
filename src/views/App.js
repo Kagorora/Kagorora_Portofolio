@@ -19,15 +19,6 @@ const App = (props) => {
 
   return (
     <div className="container">
-      {/* {$(".container").scroll(function() {
-          var y = $(this).scroll();
-          if (y > 20) {
-            // $("#element").fadeOut();
-            console.log('11111111');
-          } else {
-            $("#element").fadeOut();
-          }
-        })} */}
       <Nav isOn={value} handleToggle={() => setValue(!value)} />
       <PersonalInfo id="PersonalInfo" />
       <SocialMedia className="socialMedia" />
