@@ -33,7 +33,7 @@
   width: 40%;
   font-size: 20px;
   margin: 65% 0 0 8rem;
-  z-index: 1;
+  z-index: 0;
   float: left;
   position: absolute;
 }
@@ -115,6 +115,7 @@ element .image {
   position: fixed;
   width: 350px;
   margin-right: 1.5rem;
+  z-index: 1;
 }
 
 .btn {
@@ -150,6 +151,9 @@ element .image {
 .SkillsSection {
   width: 100% !important;
   height: 100vh;
+  z-index: 0;
+  position: relative;
+  background-color: white;
 }
 
 .UIheader {
