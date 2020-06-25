@@ -1,12 +1,13 @@
 import React from "react";
 import "../style/css/nav.css";
+import logo from '../style/images/kag.png';
 
 const nav = ({ isOn, handleToggle, onColor }) => {
   return (
     <div className="container">
       <div className="nav-bar">
         <div className="nav-logo">
-          <p>kagorora</p>
+        <img src={logo} alt="user profile" id="kaglogo" className="avatar--small" />
         </div>
         <div className="nav-link">
           <ul>

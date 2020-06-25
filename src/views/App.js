@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "../style/css/App.css";
 import Nav from "../component/nav.bar";
 import SocialMedia from "../component/socialMedia.js";
@@ -17,8 +17,15 @@ const App = (props) => {
     setShowChat(false);
   };
 
+  useEffect(() => {
+    const container = document.querySelector('.container');
+    const y = container.scrollTop;
+    console.log('heigt', y);
+  });
+
   return (
     <div className="container">
+      
       <Nav isOn={value} handleToggle={() => setValue(!value)} />
       <PersonalInfo id="PersonalInfo" />
       <SocialMedia className="socialMedia" />
