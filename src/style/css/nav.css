@@ -20,6 +20,13 @@
   line-height: 66.95px;
 }
 
+#kagLogo{
+  height: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
 .nav-link {
   float: right;
   margin-right: 246px;

@@ -1,5 +1,5 @@
 .socialMedia {
-  height: 24vh;
+  height: 26vh;
   width: 6vh;
   background-color: rgba(173, 173, 173, 0.1);
 }
@@ -10,7 +10,7 @@
 
 .socialMedia ul li i {
   font-size: 2.25rem;
-  padding: 0.41rem 0.6rem;
+  padding: 0.41rem 0.48rem;
   z-index: 1;
   cursor: pointer;
 }

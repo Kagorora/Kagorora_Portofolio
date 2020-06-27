@@ -10,8 +10,8 @@ const personalInfo = () => {
         </span>
         <p className="UIdescription">
           <span id="maximeName">Kagorora</span> Enjoys building beautiful user
-          interface that are easy to interact with and he is always looking for
-          user satisfaction while experiencing his work. Don't hesitate to reach
+          interfaces that are easy to interact with and he is always looking for
+          client satisfaction while they are experiencing his work. Don't hesitate to reach
           out, We can make your clients more pleased with your products!
         </p>
       </div>
@@ -19,9 +19,8 @@ const personalInfo = () => {
         <span className="DescriptionTitle2">
           <p className="BACKENDHeader">Programmer / Backend</p>
         </span>
-        <p className="BACKENDdescription">I am always open to work on meaningful project
+        <p className="BACKENDdescription">I am always open to work on meaningful projects
         either independent or open source projects that affect positively people's lives.
-
         If interested with work with me, please feel free to reach out!
         </p>
       </div>
